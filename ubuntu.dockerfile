@@ -7,7 +7,7 @@ RUN apt-get update \
 
 COPY --from=terraform-light /bin/terraform /usr/bin/terraform
 
-COPY ./profile /root/.bashrc
+COPY ./bashrc /root/.bashrc
 
 ENTRYPOINT [ "/bin/bash" ]
 
