@@ -11,4 +11,4 @@ COPY ./bashrc /root/.bashrc
 
 ENTRYPOINT [ "/bin/bash" ]
 
-VOLUME [ "/root/.config",  "/root/.gcp",  "/root/.kube",  "/root/go" ]
+VOLUME [ "/root/.config",  "/root/.gcp",  "/root/.kube", "/root/.ssh",  "/root/go" ]
